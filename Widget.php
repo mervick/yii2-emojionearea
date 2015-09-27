@@ -47,7 +47,7 @@ class Widget extends InputWidget
         if (empty($this->options['id'])) {
             $this->options['id'] = $this->getId();
         } else {
-            $this->options['id'] = preg_replace('/[^a-z0-9_\]/i', '_', $this->options['id']);
+            $this->options['id'] = preg_replace('/[^a-z0-9_]/i', '_', $this->options['id']);
         }
     }
 
