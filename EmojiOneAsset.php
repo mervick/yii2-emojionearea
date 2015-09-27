@@ -33,9 +33,7 @@ class EmojiOneAsset extends \yii\web\AssetBundle
         parent::publish($am);
 
         $js = <<<JS
-jQuery(document).ready(function() {
-    emojione.imagePathPNG = '{$this->basePath}/assets/png/';
-});
+    emojione.imagePathPNG = '{$this->baseUrl}/assets/png/';
 JS;
         \Yii::$app->view->registerJs($js);
     }
