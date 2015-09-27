@@ -1,0 +1,32 @@
+{
+    "name": "mervick/yii2-emojionearea",
+    "description": "Yii2 widget for emojionearea",
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Andrey Izman",
+            "email": "izmanw@gmail.com"
+        }
+    ],
+    "keywords": [
+        "yii2",
+        "emojionearea",
+        "emoji",
+        "emojione"
+    ],
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/mervick/yii2-emojionearea"
+    },
+    "homepage": "https://github.com/mervick/yii2-emojionearea",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "mervick/emojionearea": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mervick\\emojionearea\\": ""
+        }
+    }
+}
