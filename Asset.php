@@ -23,8 +23,8 @@ class Asset extends \yii\web\AssetBundle
      */
     public function init()
     {
-        $this->js = [ !YII_DEBUG ? 'js/emojionearea.min.js' : 'js/emojionearea.js'];
-        $this->css = [ !YII_DEBUG ? 'css/emojionearea.min.css' : 'css/emojionearea.css'];
+        $this->js = [!YII_DEBUG ? 'js/emojionearea.min.js' : 'js/emojionearea.js'];
+        $this->css = [!YII_DEBUG ? 'css/emojionearea.min.css' : 'css/emojionearea.css'];
 
         parent::init();
     }

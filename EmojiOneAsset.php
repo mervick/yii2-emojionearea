@@ -19,8 +19,8 @@ class EmojiOneAsset extends \yii\web\AssetBundle
      */
     public function init()
     {
-        $this->js = [ !YII_DEBUG ? 'lib/js/emojione.min.js' : 'lib/js/emojione.js'];
-        $this->css = [ !YII_DEBUG ? 'assets/css/emojione.min.css' : 'assets/css/emojione.css'];
+        $this->js = [!YII_DEBUG ? 'lib/js/emojione.min.js' : 'lib/js/emojione.js'];
+        $this->css = [!YII_DEBUG ? 'assets/css/emojione.min.css' : 'assets/css/emojione.css'];
 
         parent::init();
     }
